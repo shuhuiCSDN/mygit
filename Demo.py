@@ -11,7 +11,7 @@ def getOnlineTiny(apis, param, param1, param2, size):
     pass
 
 
-@app.route('/mapiLogs',methods=['GET'])
+# @app.route('/mapiLogs',methods=['GET'])
 def hello_world():
     restApi=request.args.get('api')
     size = int(request.args.get('size'))
@@ -24,7 +24,7 @@ def hello_world():
         try:
             _header = json.loads(req.get('requestheader', {}))
         except:
-            logger.error('Error source Request : {0}'.format(json.dumps(req,ensure_ascii=False)))
+            # logger.error('Error source Request : {0}'.format(json.dumps(req,ensure_ascii=False)))
             continue
         if not _header:
             continue
