@@ -86,6 +86,7 @@ config = {
             "/hotel/getTCMemberCtripPromotionProperty",
             "/hotel/gethotelorderrefunddetail",
             "/hotel/getResaleOrderList",
+"/hotel/getResaleOrderList",
 
         ],
         "apis_C":[
